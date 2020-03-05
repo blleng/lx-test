@@ -4,7 +4,7 @@
     <title>Hexo主题-Lx</title>
     <url>/190607/</url>
     <content><![CDATA[<p><img src="https://media-1257181248.cos.ap-chengdu.myqcloud.com/lx/images/page-cover.jpg" alt="Cover"></p>
-<p><code>Lx</code>是一款简洁、美观的Hexo主题，尚在开发中。<br>当前版本： <code>V0.0.1</code></p>
+<p><code>Lx</code>是一款简洁、美观的Hexo主题。<br>当前版本： <code>V0.1.1</code></p>
 <p>鉴于学业繁忙，本主题至<code>2020</code>年<code>06</code>月前不会有任何较大更新。</p>
 <a id="more"></a>
 
@@ -12,9 +12,10 @@
             <p>项目地址：<a href="https://github.com/blleng/hexo-theme-lx" target="_blank" rel="noopener">https://github.com/blleng/hexo-theme-lx</a></p><p>作者的博客：<a href="https://freezing.cool" target="_blank" rel="noopener">https://freezing.cool</a><br>作者的博客(备份)：<a href="https://blleng.cn" target="_blank" rel="noopener">https://blleng.cn</a></p><p>有任何疑问或建议请提交issue：<br><a href="https://github.com/blleng/hexo-theme-lx/issues" target="_blank" rel="noopener">https://github.com/blleng/hexo-theme-lx/issues</a></p>
           </div>
 
-<h2 id="最近更新"><a href="#最近更新" class="headerlink" title="最近更新"></a>最近更新</h2><h3 id="V-0-0-1"><a href="#V-0-0-1" class="headerlink" title="V 0.0.1"></a>V 0.0.1</h3><p>2020-03-05</p>
+<h2 id="最近更新"><a href="#最近更新" class="headerlink" title="最近更新"></a>最近更新</h2><h3 id="V-0-1-1"><a href="#V-0-1-1" class="headerlink" title="V 0.1.1"></a>V 0.1.1</h3><p>2020-03-05</p>
 <ul>
 <li>应诸位的要求，修改了代码块字体（目前使用<code>Fira Code</code>）</li>
+<li>完善了标签，分类页面</li>
 </ul>
 <h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>在博客根目录：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/blleng/hexo-theme-lx themes/lx</span><br></pre></td></tr></table></figure>
@@ -51,10 +52,8 @@
 <li>SideBar 侧边栏</li>
 <li>Social 社交媒体链接</li>
 <li>LocalSearch 本地搜索</li>
-</ul>
-<h2 id="待完成"><a href="#待完成" class="headerlink" title="待完成"></a>待完成</h2><ul>
-<li>文章分类页面</li>
-<li>文章标签页面</li>
+<li>tags 文章标签页面</li>
+<li>category 文章分类页面</li>
 </ul>
 <h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><h3 id="Mathjax"><a href="#Mathjax" class="headerlink" title="Mathjax"></a>Mathjax</h3><p>数学公式：</p>
 <p>万有引力常数为$G$,对于质量分别为$M$和$m$，球心距离为$r$的两个正球形天体，两者间相互作用力：<br>$$F=\frac{GMm}{r^2}$$</p>
@@ -149,5 +148,8 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 ]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
   </entry>
 </search>
