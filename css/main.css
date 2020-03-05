@@ -1,12 +1,12 @@
 @charset "UTF-8";
 html {
-  font-family: 'Montserrat', 'Noto Serif SC', sans-serif;
+  font-family: 'Noto Serif SC', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 body {
   margin: 0;
-  font-family: 'Montserrat', 'Noto Serif SC', sans-serif;
+  font-family: 'Noto Serif SC', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -48,7 +48,7 @@ h5,
 h6,
 figure {
   color: #111;
-  font-family: 'Montserrat', 'Noto Serif SC', sans-serif;
+  font-family: 'Noto Serif SC', sans-serif;
   font-weight: 400;
   margin: 10px 0px 10px 0px;
 }
@@ -576,7 +576,7 @@ a.category-link {
   left: 0;
 }
 .menu-container {
-  font-family: 'Montserrat', 'Noto Serif SC', sans-serif;
+  font-family: 'Noto Serif SC', sans-serif;
   overflow: auto;
   display: block;
   top: 120px;
@@ -918,7 +918,7 @@ pre,
 }
 pre,
 code {
-  font-family: 'Montserrat', 'Noto Serif SC', sans-serif;
+  font-family: 'Fira Code', monospace;
 }
 code {
   overflow-wrap: break-word;
