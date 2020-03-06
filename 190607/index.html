@@ -12,7 +12,7 @@
   var CONFIG = {
     root: '/',
     theme: 'lx',
-    version: '0.1.1',
+    version: '0.2.1',
     localsearch:{
       "enable": true,
       "trigger": "auto",
@@ -70,7 +70,7 @@
     <div class="lx-entry padding">
       <div>
         <p><img src="https://media-1257181248.cos.ap-chengdu.myqcloud.com/lx/images/page-cover.jpg" alt="Cover"></p>
-<p><code>Lx</code>是一款简洁、美观的Hexo主题。<br>当前版本： <code>V0.1.1</code></p>
+<p><code>Lx</code>是一款简洁、美观的Hexo主题。<br>当前版本： <code>V0.2.1</code></p>
 <p>鉴于学业繁忙，本主题至<code>2020</code>年<code>06</code>月前不会有任何较大更新。</p>
 <a id="more"></a>
 
@@ -78,22 +78,35 @@
             <p>项目地址：<a href="https://github.com/blleng/hexo-theme-lx" target="_blank" rel="noopener">https://github.com/blleng/hexo-theme-lx</a></p><p>作者的博客：<a href="https://freezing.cool" target="_blank" rel="noopener">https://freezing.cool</a><br>作者的博客(备份)：<a href="https://blleng.cn" target="_blank" rel="noopener">https://blleng.cn</a></p><p>有任何疑问或建议请提交issue：<br><a href="https://github.com/blleng/hexo-theme-lx/issues" target="_blank" rel="noopener">https://github.com/blleng/hexo-theme-lx/issues</a></p>
           </div>
 
-<h2 id="最近更新"><a href="#最近更新" class="headerlink" title="最近更新"></a>最近更新</h2><h3 id="V-0-1-1"><a href="#V-0-1-1" class="headerlink" title="V 0.1.1"></a>V 0.1.1</h3><p>2020-03-05</p>
+<h2 id="最近更新"><a href="#最近更新" class="headerlink" title="最近更新"></a>最近更新</h2><h3 id="V-0-2-1"><a href="#V-0-2-1" class="headerlink" title="V 0.2.1"></a>V 0.2.1</h3><ul>
+<li>改善了代码质量<ul>
+<li>修改了部分冗余代码</li>
+<li>改善了js文件质量</li>
+</ul>
+</li>
+</ul>
+<h3 id="V-0-1-1"><a href="#V-0-1-1" class="headerlink" title="V 0.1.1"></a>V 0.1.1</h3><p>2020-03-05</p>
 <ul>
 <li>应诸位的要求，修改了代码块字体（目前使用<code>Fira Code</code>）</li>
 <li>完善了标签，分类页面</li>
 </ul>
-<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>在博客根目录：</p>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="初次使用"><a href="#初次使用" class="headerlink" title="初次使用"></a>初次使用</h3><p>在博客根目录：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/blleng/hexo-theme-lx themes/lx</span><br></pre></td></tr></table></figure>
 
 <p>更改站点设置文件<code>_config.yml</code>：</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">lx</span></span><br></pre></td></tr></table></figure>
 
-<p>复制一份<code>themes/lx/re_config.yml</code>（方便主题版本升级时不受<code>_config.yml</code>的影响），命名为<code>_config.yml</code>，就放在<code>themes/lx</code>目录下，主题的配置将在该文件中进行。</p>
-<ul>
-<li>从旧版本更新到最新版本：<br>在<code>theme/lx</code>：</li>
-</ul>
+<div class="note success">
+            <p>复制一份<code>themes/lx/re_config.yml</code>（方便主题版本升级时不受<code>_config.yml</code>的影响），命名为<code>_config.yml</code>，就放在<code>themes/lx</code>目录下，主题的配置将在该文件中进行。</p>
+          </div>
+
+<h3 id="从旧版本更新到最新版本"><a href="#从旧版本更新到最新版本" class="headerlink" title="从旧版本更新到最新版本"></a>从旧版本更新到最新版本</h3><p>在<code>theme/lx</code>：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git pull</span><br></pre></td></tr></table></figure>
+
+<div class="note success">
+            <p>更新完毕后请注意根据最新的<code>re_config.yml</code>修改你创建的<code>_config.yml</code></p>
+          </div>
+
 
 <h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>详情参见<code>README.md</code>：</p>
 <a class="btn" href="https://github.com/blleng/hexo-theme-lx/blob/master/README.md" target="_blank" rel="noopener"><i class="fa fa-hand-o-right fa-fw"></i>hexo-theme-lx</a>
