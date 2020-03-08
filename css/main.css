@@ -216,16 +216,19 @@ h2.title a {
 .popup-trigger {
   position: absolute;
   top: 40px;
-  right: 20px;
-  width: 30px;
-  height: 30px;
-  display: inline-block;
-  line-height: 27px;
+  left: 33%;
   color: #fff;
-  background: #b70038;
   font-size: 20px;
   border-radius: 50%;
   z-index: 5;
+}
+.single .popup-trigger {
+  left: 85%;
+}
+@media screen and (max-width: 768px) {
+  .popup-trigger {
+    left: 85%;
+  }
 }
 a.popup-trigger:hover {
   color: #f2f2f2;
