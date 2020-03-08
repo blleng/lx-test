@@ -216,16 +216,18 @@ h2.title a {
 .popup-trigger {
   position: absolute;
   top: 40px;
-  right: 30px;
-  width: 25px;
-  height: 25px;
-  line-height: 24px;
-  padding: 0;
-  color: #000;
-  background: radial-gradient(#3ea055, #00fcff);
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  color: #fff;
+  background: #b70038;
   font-size: 20px;
   border-radius: 50%;
-  z-index: 5;
+  z-index: 20;
+}
+a.popup-trigger:hover {
+  color: #f2f2f2;
 }
 .local-search-pop-overlay {
   background-color: rgba(0,0,0,0.2);
@@ -289,6 +291,9 @@ h2.title a {
   overflow: auto;
   padding: 5px 25px;
   position: relative;
+}
+ul.search-result-list li a {
+  color: #333;
 }
 .local-search-popup .local-search-input-wrapper {
   display: inline-block;
@@ -565,16 +570,17 @@ a.category-link {
 }
 .menu-trigger {
   position: fixed;
+  right: 20px;
   bottom: 60px;
-  right: 25px;
-  -webkit-appearance: none;
   border: 0;
-  outline: 0;
-  background: transparent;
-  color: #222;
-  cursor: pointer;
-  -webkit-tap-highlight-color: rgba(0,0,0,0.2);
-  z-index: 5;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #b70038;
+  z-index: 4;
 }
 .menu-trigger:hover {
   opacity: 0.8;
@@ -582,8 +588,8 @@ a.category-link {
 }
 .menu-trigger:before {
   font-family: 'FontAwesome';
-  content: '\f053';
-  font-size: 24px;
+  content: '\f100';
+  font-size: 18px;
 }
 :root {
   --skin: #444;
