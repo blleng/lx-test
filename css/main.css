@@ -574,7 +574,7 @@ a.category-link {
   border: 0;
   outline: 0;
   background: transparent;
-  color: $menu-button;
+  color: #222;
   cursor: pointer;
   -webkit-tap-highlight-color: rgba(0,0,0,0.2);
   z-index: 5;
@@ -880,8 +880,8 @@ a.category-link {
   --theme-color: linear-gradient(to right, #0072ff, #00c6ff);
 }
 .flickr {
-  --theme-color: $fli-2;
-  background: $fli-2;
+  --theme-color: #ff0084;
+  background: #ff0084;
 /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #33001b, #ff0084);
 /* Chrome 10-25, Safari 5.1-6 */

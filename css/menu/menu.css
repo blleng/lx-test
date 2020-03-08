@@ -9,9 +9,9 @@
   border: 0;
   outline: 0;
   background: transparent;
-  color: $menu-button;
+  color: $black-s;
   cursor: pointer;
-  -webkit-tap-highlight-color: $menu-button-tap;
+  -webkit-tap-highlight-color: $black-t-2;
   z-index: 5;
 }
 .menu-trigger:hover {
@@ -337,8 +337,8 @@
 }
 /* Flickr */
 .flickr {
-  --theme-color: $fli-2;
-  background: $fli-2;
+  --theme-color: #ff0084;
+  background: #ff0084;
 /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #33001b, #ff0084);
 /* Chrome 10-25, Safari 5.1-6 */
