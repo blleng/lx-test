@@ -232,9 +232,6 @@ h2.title a {
     left: 85%;
   }
 }
-a.popup-trigger:hover {
-  color: #f2f2f2;
-}
 .local-search-pop-overlay {
   background-color: rgba(0,0,0,0.2);
   height: 100%;
