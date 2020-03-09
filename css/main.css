@@ -571,28 +571,79 @@ a.category-link {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.menu-trigger {
+.hamburger {
   position: fixed;
   right: 20px;
   bottom: 60px;
-  border: 0;
-  display: inline-block;
   width: 30px;
   height: 30px;
-  text-align: center;
-  color: #fff;
   border-radius: 50%;
   background-color: #b70038;
-  z-index: 4;
+  line-height: 0;
+  z-index: 21;
+  display: inline-block;
+  cursor: pointer;
+  transition-property: opacity, filter;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  border: 0;
+  margin: 0;
+  overflow: visible;
 }
 .menu-trigger:hover {
-  opacity: 0.8;
-  -webkit-opacity: 0.8;
+  opacity: 0.7;
 }
-.menu-trigger:before {
-  font-family: 'FontAwesome';
-  content: '\f100';
-  font-size: 18px;
+.menu-trigger.is-active:hover {
+  opacity: 0.7;
+}
+.menu-trigger.is-active .hamburger-inner,
+.menu-trigger.is-active .hamburger-inner::before,
+.menu-trigger.is-active .hamburger-inner::after {
+  background-color: #fff;
+}
+.hamburger-box {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  position: relative;
+}
+.hamburger-inner {
+  display: block;
+  top: 50%;
+  margin-top: -1px;
+  margin-left: 4px;
+}
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
+  width: 21px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 4px;
+  position: absolute;
+  transition-property: transform;
+  transition-duration: 0.15s;
+  transition-timing-function: ease;
+}
+.hamburger-inner::before,
+.hamburger-inner::after {
+  content: "";
+  display: block;
+}
+.hamburger-inner::before {
+  top: -5px;
+}
+.hamburger-inner::after {
+  bottom: -5px;
+}
+.hamburger--arrow-r.is-active .hamburger-inner::before {
+  transform: translate3d(8px, 0, 0) rotate(45deg) scale(0.7, 1);
+}
+.hamburger--arrow-r.is-active .hamburger-inner::after {
+  transform: translate3d(8px, 0, 0) rotate(-45deg) scale(0.7, 1);
 }
 :root {
   --skin: #444;
@@ -742,20 +793,6 @@ a.category-link {
   font-size: 11px;
   bottom: 32px;
   display: block;
-}
-.dim-overlay {
-  display: none;
-}
-.dim-overlay:before {
-  content: "";
-  background-color: rgba(0,0,0,0.5);
-  height: 100vh;
-  left: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  overflow: hidden;
-  z-index: 15;
 }
 .red {
   ackground: #e41b17;
