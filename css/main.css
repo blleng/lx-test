@@ -578,7 +578,7 @@ a.category-link {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: #b70038;
+  background-color: rgba(247,65,65,0.761);
   line-height: 0;
   z-index: 21;
   display: inline-block;
