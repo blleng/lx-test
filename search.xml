@@ -3,7 +3,7 @@
   <entry>
     <title>Hexo主题-Lx</title>
     <url>/190607/</url>
-    <content><![CDATA[<p><img src="//cdn.jsdelivr.net/gh/blleng/lx-test@master/images/page-cover.jpg" alt="Cover"></p>
+    <content><![CDATA[<p><img src="//cdn.jsdelivr.net/gh/blleng/hexo-theme-lx@0.3.4/source/images/page-cover.jpg" alt="Cover"></p>
 <p><code>Lx</code>是一款简洁、美观的Hexo主题。<br>当前版本： <code>V0.2.3</code></p>
 <p>鉴于学业繁忙，本主题至<code>2020</code>年<code>06</code>月前不会有任何较大更新。</p>
 <a id="more"></a>
@@ -12,11 +12,12 @@
             <p>项目地址：<a href="https://github.com/blleng/hexo-theme-lx" target="_blank" rel="noopener">https://github.com/blleng/hexo-theme-lx</a></p><p>作者的博客：<a href="https://freezing.cool" target="_blank" rel="noopener">https://freezing.cool</a></p><p>Telegram频道-hexo-thme-lx：<a href="https://t.me/themelx" target="_blank" rel="noopener">https://t.me/themelx</a></p><p>有任何疑问或建议请提交issue：<br><a href="https://github.com/blleng/hexo-theme-lx/issues" target="_blank" rel="noopener">https://github.com/blleng/hexo-theme-lx/issues</a></p>
           </div>
 
-<h2 id="最近更新"><a href="#最近更新" class="headerlink" title="最近更新"></a>最近更新</h2><h3 id="V-0-2-3"><a href="#V-0-2-3" class="headerlink" title="V 0.2.3"></a>V 0.2.3</h3><ul>
-<li>在细节上做出了很多改进</li>
+<h2 id="最近更新"><a href="#最近更新" class="headerlink" title="最近更新"></a>最近更新</h2><h3 id="V-0-3-4"><a href="#V-0-3-4" class="headerlink" title="V 0.3.4"></a>V 0.3.4</h3><ul>
+<li>Jsdelivr静态资源加速</li>
+<li>侧边栏可显示文章分类</li>
 </ul>
-<h3 id="V-0-2-2"><a href="#V-0-2-2" class="headerlink" title="V 0.2.2"></a>V 0.2.2</h3><ul>
-<li>给予了用户在字体选用方面的更多自由</li>
+<h3 id="V-0-2-3"><a href="#V-0-2-3" class="headerlink" title="V 0.2.3"></a>V 0.2.3</h3><ul>
+<li>在细节上做出了很多改进</li>
 </ul>
 <h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>在博客根目录：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/blleng/hexo-theme-lx themes/lx</span><br></pre></td></tr></table></figure>
