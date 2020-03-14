@@ -4,7 +4,9 @@
     <title>Hexo主题-Lx</title>
     <url>/190607/</url>
     <content><![CDATA[<p><img src="//cdn.jsdelivr.net/npm/theme-lx@0.3.4/source/images/page-cover.jpg" alt="Cover"></p>
-<p><code>Lx</code>是一款简洁、美观的Hexo主题。<br>当前版本： <code>V0.3.4</code></p>
+<p><code>Lx</code>是一款简洁、美观的Hexo主题。<br>当前版本： <code>V0.3.5</code></p>
+<p>language: English,Chinese</p>
+<p>项目地址：<a href="https://github.com/blleng/hexo-theme-lx" target="_blank" rel="noopener">https://github.com/blleng/hexo-theme-lx</a></p>
 <p>鉴于学业繁忙，本主题至<code>2020</code>年<code>06</code>月前不会有任何较大更新。</p>
 <a id="more"></a>
 
@@ -16,12 +18,13 @@
             <p>本站的目的是为<code>lx</code>主题提供效果预览，而非为大家提供帮助，如若需要帮助、报告bug或提出建议请务必提交issue。</p>
           </div>
 
-<h2 id="最近更新"><a href="#最近更新" class="headerlink" title="最近更新"></a>最近更新</h2><h3 id="V-0-3-4"><a href="#V-0-3-4" class="headerlink" title="V 0.3.4"></a>V 0.3.4</h3><ul>
+<h2 id="最近更新"><a href="#最近更新" class="headerlink" title="最近更新"></a>最近更新</h2><h3 id="V-0-3-5"><a href="#V-0-3-5" class="headerlink" title="V 0.3.5"></a>V 0.3.5</h3><ul>
+<li>国际化支持</li>
+<li>开发者选项</li>
+</ul>
+<h3 id="V-0-3-4"><a href="#V-0-3-4" class="headerlink" title="V 0.3.4"></a>V 0.3.4</h3><ul>
 <li>Jsdelivr静态资源加速</li>
 <li>侧边栏可显示文章分类</li>
-</ul>
-<h3 id="V-0-2-3"><a href="#V-0-2-3" class="headerlink" title="V 0.2.3"></a>V 0.2.3</h3><ul>
-<li>在细节上做出了很多改进</li>
 </ul>
 <h2 id="使用："><a href="#使用：" class="headerlink" title="使用："></a>使用：</h2><h3 id="获取最稳定的版本："><a href="#获取最稳定的版本：" class="headerlink" title="获取最稳定的版本："></a>获取最稳定的版本：</h3><p><a href="https://github.com/blleng/hexo-theme-lx/releases" target="_blank" rel="noopener">https://github.com/blleng/hexo-theme-lx/releases</a></p>
 <p>解压后将文件夹命名为<code>lx</code>放在<code>themes</code>文件夹中。</p>
