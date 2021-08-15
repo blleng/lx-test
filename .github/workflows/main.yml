@@ -32,6 +32,7 @@ jobs:
       run: |
         npm install -g hexo-cli
         npm install
+        git clone https://github.com/blleng/hexo-theme-lx/ themes/lx
 
     - name: Generate files
       run: |
@@ -41,5 +42,5 @@ jobs:
     - name: Deploy🚀
       uses: JamesIves/github-pages-deploy-action@4.1.4
       with:
-        branch: master # The branch the action should deploy to.
+        branch: gh-page # The branch the action should deploy to.
         folder: public # The folder the action should deploy.
