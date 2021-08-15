@@ -28,7 +28,7 @@ jobs:
         path: ~/.npm
         key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
 
-    - name: Install hexo dependencies
+    - name: Install dependencies
       run: |
         npm install -g hexo-cli
         npm install
@@ -38,13 +38,8 @@ jobs:
         hexo clean
         hexo generate
 
-    - name: Deploy hexo blog
-      env: 
-        GITHUB_REPO: github.com/blleng/lx
-      run: |
-        cd ./public && git init && git add .
-        git config user.name "blleng"
-        git config user.email "l0bl@outlook.com"
-        git add .
-        git commit -m "GitHub Actions Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
-        git push --force --quiet "https://${{ secrets.lx-auto-test }}@$GITHUB_REPO" master:master
+    - name: Deploy🚀
+      uses: JamesIves/github-pages-deploy-action@4.1.4
+      with:
+        branch: master # The branch the action should deploy to.
+        folder: public # The folder the action should deploy.
