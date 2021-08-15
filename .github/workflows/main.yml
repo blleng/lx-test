@@ -1,0 +1,51 @@
+name: Theme Test CI/CD
+
+on:
+  push:
+    branches: 
+      - master
+
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  blog-cicd:
+    name: Hexo blog build & deploy
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout codes
+      uses: actions/checkout@v2
+
+    - name: Setup node
+      uses: actions/setup-node@v1
+      with:
+        node-version: '16.x'
+
+    - name: Cache node modules
+      # 设置包缓存目录，避免每次下载
+      uses: actions/cache@v1
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+
+    - name: Install hexo dependencies
+      run: |
+        npm install -g hexo-cli
+        npm install
+
+    - name: Generate files
+      run: |
+        hexo clean
+        hexo generate
+
+    - name: Deploy hexo blog
+      env: 
+        GITHUB_REPO: github.com/blleng/lx
+      run: |
+        cd ./public && git init && git add .
+        git config user.name "blleng"
+        git config user.email "l0bl@outlook.com"
+        git add .
+        git commit -m "GitHub Actions Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
+        git push --force --quiet "https://${{ secrets.ACCESS_TOKEN }}@$GITHUB_REPO" master:master
