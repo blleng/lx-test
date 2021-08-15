@@ -37,7 +37,6 @@ menu:
     enable: true
     links:
       Guestbook: guestbook/
-      About: about/
   friends:
     enable: true
     links:
