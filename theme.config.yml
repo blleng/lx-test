@@ -51,14 +51,14 @@ menu:
 #   icon: fontawesome icon
 #   link: url
 social:
-  enable: false
+  enable: true
   links:
-  #  GitHub:
-  #    icon: github
-  #    link: https://github.com/yourname
-  #  Email:
-  #    icon: envelope
-  #    link: mailto:your@email.address
+    GitHub:
+      icon: github
+      link: https://github.com/blleng
+    Email:
+      icon: envelope
+      link: mailto:l0bl@outlook.com
   #  Weibo:
   #    icon: weibo
   #    link: https://weibo.com/yourname
@@ -81,7 +81,7 @@ local_search:
   placeholder: Search...
 
 # footer
-footer: 如果你喜欢本主题，请点击<a href="https://github.com/blleng/lx">Star</a>收藏
+footer: 如果你喜欢本主题，请点击<a href="https://github.com/blleng/hexo-theme-lx">Star</a>收藏
 
 # Analytics
 google_analytics: UA-141208129-2 #Google ID
