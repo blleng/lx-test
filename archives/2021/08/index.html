@@ -4,24 +4,24 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme-color" content=#58b77a>
-  <title>Archives | Hexo</title>
+  <title>Archives | Hexo-Theme-Lx</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="John Doe">
-  <meta name="keywords" content="">
-  <meta name="description" content="">
+  <meta name="author" content="Leng">
+  <meta name="keywords" content="blog, hexo-theme-lx, theme-lx, lx">
+  <meta name="description" content="Hexo Blog Theme: Lx. A simple & clear & elegant hexo theme">
   <script id="hexo-configurations">
   var CONFIG = {
     root: '/',
     theme: 'lx',
     version: '0.3.11',
     localsearch:{
-      "enable": false,
+      "enable": true,
       "trigger": "auto",
       "top_n_per_article": 1,
       "unescape": false,
       "preload": false
       },
-    path: 'null'
+    path: 'search.xml'
   };
 </script>
 
@@ -57,21 +57,46 @@
 	     });
 	}); 
 	</script>
-  
+  <!--Google_Analytics-->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141208129-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-141208129-2');
+</script>
+
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Fira Code:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css">
 <meta name="generator" content="Hexo 5.4.0"></head>
 <body>
 
 <div id="page">
+<a href="javascript:;" class="popup-trigger"><i class="menu-item-icon fa fa-search fa-fw"></i></a>
+<div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="Search..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
 
 <div id="lx-aside" style="background-image: url(//cdn.jsdelivr.net/npm/theme-lx@0.3.11/source/images/cover.min.jpeg)">
   <div class="overlay">
   <div class="featured">
     <div class="avatar"><a href="/"><img src="/images/avatar.min.jpeg"></a></div>
-    <span>John Doe</span>
-    <h1>Hexo</h1>
-    
+    <span>Leng</span>
+    <h1>Hexo-Theme-Lx</h1>
+    <span>——A simple & clear & elegant hexo theme</span>
     
   </div>
   </div>
@@ -82,13 +107,13 @@
   <h2 class="pagehead">Archives</h2>
     <div class="lx-entry padding"><div>
     <span class="lx-post-detail">2021-08-15</span>
-    <h2 class="title"><a href="/2021/08/15/hello-world/">Hello World</a></h2>
+    <h2 class="title"><a href="/hello-world/">Hello World</a></h2>
     <p></p></div></div>
 
 
 <footer>
   <div>
-  Copyright &copy; 2021.<a href="/">Hexo</a><br>Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme <a href="https://lx.js.org" target="_blank">Lx</a><br>
+  Copyright &copy; 2021.<a href="/">Hexo-Theme-Lx</a><br>Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme <a href="https://lx.js.org" target="_blank">Lx</a><br>如果你喜欢本主题，请点击<a target="_blank" rel="noopener" href="https://github.com/blleng/lx">Star</a>收藏
   </div>
 </footer>
 
@@ -107,12 +132,12 @@
       <div class="col">
         <div class="row for-pic">
           <div class="profile-pic">
-            <a href="/"><img src="/images/avatar.min.jpeg" alt="John Doe"/></a>
+            <a href="/"><img src="/images/avatar.min.jpeg" alt="Leng"/></a>
           </div>
         </div>
         <div class="row for-name">
-          <p>John Doe</p>
-          <span class="tagline">Hello, World!</span>
+          <p>Leng</p>
+          <span class="tagline">Code Changes The World!</span>
         </div>
       </div>
     </span>
@@ -168,6 +193,7 @@
 	});
 }());
 </script>
+<script src="//cdn.jsdelivr.net/npm/theme-lx@0.3.11/source/js/local.search.js"></script>
 
 
 </body>
