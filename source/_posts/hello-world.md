@@ -1,7 +1,7 @@
 ---
 title: Hello World
 date: 2020-02-06
-category: 其他
+category: Others
 tags: Hexo
 comment: true
 ---
