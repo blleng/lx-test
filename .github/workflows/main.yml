@@ -35,7 +35,7 @@ jobs:
         npm install -g hexo-cli
         npm install
         git clone https://github.com/blleng/hexo-theme-lx/ themes/lx
-        cd themes/lx && git checkout $env.LATEST_VERSION
+        cd themes/lx && git checkout ${{ env.LATEST_VERSION}}
         cd ../.. && rm themes/lx/_config.yml && mv theme.config.yml themes/lx/_config.yml
 
     - name: Generate files
