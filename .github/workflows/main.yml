@@ -10,7 +10,7 @@ env:
 
 jobs:
   blog-cicd:
-    name: Hexo blog build & deploy
+    name: Hexo build & deploy
     runs-on: ubuntu-latest
 
     steps:
@@ -30,6 +30,7 @@ jobs:
 
     - name: Install dependencies
       run: |
+        npm cache clean --force
         npm install -g hexo-cli
         npm install
         git clone https://github.com/blleng/hexo-theme-lx/ themes/lx
