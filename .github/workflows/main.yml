@@ -30,9 +30,10 @@ jobs:
 
     - name: Install dependencies
       run: |
-        npm cache clean --force
         npm install -g hexo-cli
         npm install
+        npm uninstall hexo-generator-index -s
+        npm install hexo-generator-index-pin-top -s
         git clone https://github.com/blleng/hexo-theme-lx/ themes/lx
         rm themes/lx/_config.yml && mv theme.config.yml themes/lx/_config.yml
 
