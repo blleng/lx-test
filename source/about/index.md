@@ -1,5 +1,5 @@
 ---
-title: about
+title: About Lx
 date: 2021-08-17 19:45:56
 comment: true
 ---
