@@ -1,4 +1,4 @@
-name: Theme Test CI/CD
+name: Stable Theme Test
 
 on:
   push:
@@ -12,8 +12,6 @@ jobs:
   Theme-Test:
     name: Hexo build & deploy
     runs-on: ubuntu-latest
-    env:
-      LATEST_VERSION: $(git describe --abbrev=0 --tags)
 
     steps:
     - name: Checkout codes
@@ -35,8 +33,7 @@ jobs:
         npm install -g hexo-cli
         npm install
         git clone https://github.com/blleng/hexo-theme-lx/ themes/lx
-        cd themes/lx && git checkout ${{ env.LATEST_VERSION}}
-        cd ../.. && rm themes/lx/_config.yml && mv theme.config.yml themes/lx/_config.yml
+        rm themes/lx/_config.yml && mv theme.config.yml themes/lx/_config.yml
 
     - name: Generate files
       run: |
