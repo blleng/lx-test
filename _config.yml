@@ -113,10 +113,11 @@ theme_config:
       enable: true
       links:
         Guestbook: guestbook/
+        About: about/
     friends:
       enable: true
       links:
-        Stable Version: https://lx.js.org
+        Dev Version: https://lx.blleng.cn
 
   social:
     enable: true
