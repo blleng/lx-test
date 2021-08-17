@@ -5,7 +5,7 @@
     <url>/190607/</url>
     <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/blleng/images@master/upload/lx-test.jpeg" alt="View"></p>
 <p><code>Lx</code>是一款简洁、美观的Hexo主题。</p>
-<p>Languages: <a href="/200318/">English</a>, 中文<br>当前版本：<code>V0.3.11</code><br>项目地址：<a href="https://github.com/blleng/hexo-theme-lx">https://github.com/blleng/hexo-theme-lx</a></p>
+<p>Languages: <a href="/200318/">English</a>, 中文<br>当前版本：<code>stable</code><br>项目地址：<a href="https://github.com/blleng/hexo-theme-lx">https://github.com/blleng/hexo-theme-lx</a></p>
 <span id="more"></span>
 
 <div class="note success">
@@ -13,16 +13,13 @@
           </div>
 
 <div class="note warning">
-            <p>本站的目的是为<code>lx</code>主题的稳定版本提供效果预览，而非为大家提供帮助，如若需要帮助、报告bug或提出建议请务必提交issue。</p>
+            <p>本站的目的是为<code>lx</code>主题的<code>master</code>分支稳定版本提供效果预览，而非为大家提供帮助，如若需要帮助、报告bug或提出建议请务必提交issue。</p>
           </div>
 
 <h2 id="最近更新"><a href="#最近更新" class="headerlink" title="最近更新"></a>最近更新</h2><h3 id="V0-3-11"><a href="#V0-3-11" class="headerlink" title="V0.3.11"></a>V0.3.11</h3><ul>
 <li>修复了一些已知问题</li>
 </ul>
-<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="获取稳定版本："><a href="#获取稳定版本：" class="headerlink" title="获取稳定版本："></a>获取稳定版本：</h3><p><a href="https://github.com/blleng/hexo-theme-lx/releases">https://github.com/blleng/hexo-theme-lx/releases</a></p>
-<p>解压后将文件夹命名为<code>lx</code>放在<code>themes</code>文件夹中。</p>
-<h3 id="获取具有最新特性的版本："><a href="#获取具有最新特性的版本：" class="headerlink" title="获取具有最新特性的版本："></a>获取具有最新特性的版本：</h3><p>最新版本测试站点：<a href="https://lx.blleng.cn/">https://lx.blleng.cn</a></p>
-<p>在博客根目录:</p>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="获克隆到本地："><a href="#获克隆到本地：" class="headerlink" title="获克隆到本地："></a>获克隆到本地：</h3><p>在博客根目录:</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/blleng/hexo-theme-lx themes/lx</span><br></pre></td></tr></table></figure>
 
 <h3 id="启用本主题："><a href="#启用本主题：" class="headerlink" title="启用本主题："></a>启用本主题：</h3><p>更改站点设置文件<code>_config.yml</code>:</p>
@@ -134,7 +131,7 @@
     <url>/200318/</url>
     <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/blleng/images@master/upload/lx-test.jpeg" alt="View"></p>
 <p><code>Lx</code> is a simple &amp; clear &amp; elegant hexo theme.</p>
-<p>Languages: English, <a href="/200318/">中文</a><br>Current Version：<code>V0.3.11</code><br>GitHub Repo：<a href="https://github.com/blleng/hexo-theme-lx">https://github.com/blleng/hexo-theme-lx</a></p>
+<p>Languages: English, <a href="/200318/">中文</a><br>Current Version：<code>stable</code><br>GitHub Repo：<a href="https://github.com/blleng/hexo-theme-lx">https://github.com/blleng/hexo-theme-lx</a></p>
 <span id="more"></span>
 
 <div class="note success">
@@ -142,16 +139,13 @@
           </div>
 
 <div class="note warning">
-            <p>This site aims to provide a live demo for <code>the stable version</code> of <code>lx</code> and won’t offer help.<br>Any problem,suggestion or bug report –&gt; <a href="https://github.com/blleng/hexo-theme-lx/issues">Issue</a></p>
+            <p>This site aims to provide a live demo for the <code>master</code> branch of <code>lx</code> and won’t offer help.<br>Any problem,suggestion or bug report –&gt; <a href="https://github.com/blleng/hexo-theme-lx/issues">Issue</a></p>
           </div>
 
 <h2 id="Change-Log"><a href="#Change-Log" class="headerlink" title="Change Log"></a>Change Log</h2><h3 id="V0-3-11"><a href="#V0-3-11" class="headerlink" title="V0.3.11"></a>V0.3.11</h3><ul>
 <li>Fix some known problems.</li>
 </ul>
-<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><h3 id="Stable-Version："><a href="#Stable-Version：" class="headerlink" title="Stable Version："></a>Stable Version：</h3><p><a href="https://github.com/blleng/hexo-theme-lx/releases">https://github.com/blleng/hexo-theme-lx/releases</a></p>
-<p>Unzip the package and put the files under <code>themes</code> dir. Rename the new folder(hexo-theme-lx) as <code>lx</code>.</p>
-<h3 id="Latest-Version："><a href="#Latest-Version：" class="headerlink" title="Latest Version："></a>Latest Version：</h3><p>Test site for the latest version: <a href="https://lx.blleng.cn/">https://lx.blleng.cn</a></p>
-<p>At the root dir of the blog:</p>
+<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><h3 id="Git-clone"><a href="#Git-clone" class="headerlink" title="Git clone"></a>Git clone</h3><p>At the root dir of the blog:</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/blleng/hexo-theme-lx themes/lx</span><br></pre></td></tr></table></figure>
 
 <h3 id="Apply-it"><a href="#Apply-it" class="headerlink" title="Apply it"></a>Apply it</h3><p>Edit <code>_config.yml</code> file under the root dir:</p>
