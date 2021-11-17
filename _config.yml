@@ -152,4 +152,4 @@ theme_config:
     guest_info: nick,mail,link
     pageSize: 10
     language: en
-    cdn: https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js
+    cdn: https://cdn.jsdelivr.net/npm/valine@1.4.16/dist/Valine.min.js
