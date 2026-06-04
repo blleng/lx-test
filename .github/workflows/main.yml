@@ -4,6 +4,7 @@ on:
   push:
     branches: 
       - master
+      - main
 
 env:
   TZ: Asia/Shanghai
@@ -13,36 +14,34 @@ jobs:
     name: Hexo build & deploy
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
     - name: Checkout codes
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
-    - name: Setup node
-      uses: actions/setup-node@v1
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
       with:
-        node-version: '16.x'
-
-    - name: Cache node modules
-      uses: actions/cache@v1
-      with:
-        path: ~/.npm
-        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        node-version: '20.x'
+        cache: 'npm'
 
     - name: Install dependencies
       run: |
         npm install -g hexo-cli
-        npm install
+        npm ci 
         git clone https://github.com/blleng/hexo-theme-lx/ themes/lx
 
     - name: Generate files
       run: |
-        hexo clean
-        hexo generate
+        npx hexo clean
+        npx hexo generate
 
     - name: Deploy to gh-page🚀
-      uses: JamesIves/github-pages-deploy-action@4.1.4
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
+        folder: public 
+        branch: gh-page 
         git-config-name: blleng
-        git-config-email: l0bl@outlook.com
-        branch: gh-page # The branch the action should deploy to.
-        folder: public # The folder the action should deploy.
+        git-config-email: lengbl@outlook.com
