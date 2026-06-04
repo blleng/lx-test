@@ -139,7 +139,9 @@ theme_config:
 
   footer: <a href="https://github.com/blleng/hexo-theme-lx">Star</a> me if you like.
 
-  google_analytics: UA-141208129-2
+  google_analytics: G-ERG340CL7Z
+
+  custom_head: <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8880124247029361" crossorigin="anonymous"></script>
 
   comment:
     enable: true
